@@ -1,0 +1,23 @@
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.siteContent {
+  flex-grow: 1;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+
+.siteHeader {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+}
+
+.siteNavigation {
+  list-style: none;
+  float: right;
+}

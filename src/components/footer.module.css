@@ -1,0 +1,40 @@
+.footer {
+  background-color: black;
+  height: 200px;
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.footerSection {
+
+  
+}
+
+.footerLink {
+  color: #fff;
+}
+
+.footerText {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+.footerIcons {
+  display: flex;
+  margin-top: 0px;
+}
+
+.socialIcon {
+  margin: 10px;
+}
+
+.socialIcon:first-child {
+  margin-left: 0px;
+}
+
+.socialIcon:last-child {
+  margin-right: 0px;
+}
