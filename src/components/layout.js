@@ -26,8 +26,8 @@ export default function Layout({ children }) {
   return (
     <div className={layoutStyles.site}>
       <header className={layoutStyles.siteHeader}>
-        <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-          <h1 style={{float:`left`}}>{data.site.siteMetadata.title}</h1>
+        <Link to="/">
+          <h1 class={layoutStyles.siteHeaderText} style={{float:`left`}}>{data.site.siteMetadata.title}</h1>
         </Link>
         <ul className={layoutStyles.siteNavigation}> 
           <ListLink to="/">Home</ListLink>

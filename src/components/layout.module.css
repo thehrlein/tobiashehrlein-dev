@@ -4,20 +4,26 @@
   flex-direction: column;
 }
 
+.siteHeader {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;  
+}
+
+.siteNavigation {
+  float: right;
+}
+
+.siteHeaderText {
+  background: url("../images/icon.png");
+  padding: 16px 92px 14px 92px;
+  background-repeat: no-repeat;
+  background-size: 72px 72px;
+}
+
 .siteContent {
   flex-grow: 1;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 30px;
-}
-
-.siteHeader {
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 10px;
-}
-
-.siteNavigation {
-  list-style: none;
-  float: right;
 }
