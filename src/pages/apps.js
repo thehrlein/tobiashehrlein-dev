@@ -3,7 +3,7 @@ import Headline from "../components/headline"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 
-export default function About({ data }) {
+export default function Apps({ data }) {
   return (
     <Layout>
       <Headline headlineText={data.site.siteMetadata.title} />
