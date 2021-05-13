@@ -1,6 +1,4 @@
 import React from "react"
-import { css } from "@emotion/react"
-import { rhythm } from "../utils/typography"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import Footer from "./footer"
 import * as layoutStyles from "./layout.module.css"
@@ -33,9 +31,8 @@ export default function Layout({ children }) {
         </Link>
         <ul className={layoutStyles.siteNavigation}> 
           <ListLink to="/">Home</ListLink>
-          <ListLink to="/about/">About</ListLink>
+          <ListLink to="/apps/">Apps</ListLink>
           <ListLink to="/about-css-modules/">About css modules</ListLink>
-          <ListLink to="/contact/">Contact</ListLink>
         </ul>
       </header>
       <div className={layoutStyles.siteContent}>{children}</div>

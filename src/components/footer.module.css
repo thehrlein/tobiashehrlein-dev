@@ -7,11 +7,6 @@
   align-items: center; 
 }
 
-.footerSection {
-
-  
-}
-
 .footerLink {
   color: #fff;
 }
@@ -28,13 +23,6 @@
 }
 
 .socialIcon {
-  margin: 10px;
-}
-
-.socialIcon:first-child {
-  margin-left: 0px;
-}
-
-.socialIcon:last-child {
-  margin-right: 0px;
+  margin: 10px 30px;
+  color: white;
 }

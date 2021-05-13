@@ -8,7 +8,7 @@
   siteMetadata: {
     title: `Tobias Hehrlein`,
     description: `Basic information about Tobias Hehrlein`,
-    author: `tobiashehrlein`,
+    author: `Tobias Hehrlein`,
   },
   plugins: [
     {
